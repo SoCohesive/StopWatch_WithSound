@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291F4C22178FA97800FC91DE /* horn_effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 291F4C21178FA97800FC91DE /* horn_effect.mp3 */; };
+		293ABFFA1734C7E800431FE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293ABFF91734C7E800431FE0 /* UIKit.framework */; };
+		293ABFFC1734C7E800431FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293ABFFB1734C7E800431FE0 /* Foundation.framework */; };
+		293ABFFE1734C7E800431FE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293ABFFD1734C7E800431FE0 /* CoreGraphics.framework */; };
+		293AC0041734C7E800431FE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 293AC0021734C7E800431FE0 /* InfoPlist.strings */; };
+		293AC0061734C7E800431FE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AC0051734C7E800431FE0 /* main.m */; };
+		293AC00A1734C7E800431FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AC0091734C7E800431FE0 /* AppDelegate.m */; };
+		293AC00C1734C7E800431FE0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 293AC00B1734C7E800431FE0 /* Default.png */; };
+		293AC00E1734C7E800431FE0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 293AC00D1734C7E800431FE0 /* Default@2x.png */; };
+		293AC0101734C7E800431FE0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 293AC00F1734C7E800431FE0 /* Default-568h@2x.png */; };
+		293AC0131734C7E800431FE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AC0121734C7E800431FE0 /* ViewController.m */; };
+		293AC0161734C7E900431FE0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293AC0141734C7E900431FE0 /* ViewController.xib */; };
+		293AC01D1734C83900431FE0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293AC01C1734C83900431FE0 /* ViewController.xib */; };
+		29BD1AFC1736EE28004133B8 /* stop_button_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BD1AFB1736EE28004133B8 /* stop_button_clear.png */; };
+		29BD1AFE1736F10F004133B8 /* oldreset_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BD1AFD1736F10F004133B8 /* oldreset_button.png */; };
+		29BD1B001736F195004133B8 /* reset_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BD1AFF1736F195004133B8 /* reset_button.png */; };
+		29BD1B041736F38A004133B8 /* wood_bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BD1B031736F38A004133B8 /* wood_bg2.png */; };
+		29BD1B061736F4A2004133B8 /* white_paper_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BD1B051736F4A2004133B8 /* white_paper_bg.png */; };
+		29BD1B081736F5E4004133B8 /* Clock_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BD1B071736F5E4004133B8 /* Clock_Icon.png */; };
+		29BD1B0A1736F709004133B8 /* START_BUTTON_RAOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BD1B091736F709004133B8 /* START_BUTTON_RAOR.png */; };
+		29D0F6F917372A7C00DEAD87 /* GreyBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D0F6F817372A7C00DEAD87 /* GreyBackGround.png */; };
+		29D0F6FB17372C4200DEAD87 /* GreyBackGround_withclockandsidebar.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D0F6FA17372C4200DEAD87 /* GreyBackGround_withclockandsidebar.png */; };
+		29FED8C217356A810067AD4E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FED8C117356A810067AD4E /* AVFoundation.framework */; };
+		29FED8D417358DD30067AD4E /* activate_button_copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29FED8D317358DD30067AD4E /* activate_button_copy.jpg */; };
+		29FED8D61735927C0067AD4E /* activate_round.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29FED8D51735927C0067AD4E /* activate_round.jpg */; };
+		29FED8DA17359DF30067AD4E /* activate_button_CLEAR.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FED8D917359DF30067AD4E /* activate_button_CLEAR.png */; };
+		29FED8DC1735A71C0067AD4E /* 2-red-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29FED8DB1735A71C0067AD4E /* 2-red-background.jpg */; };
+		29FED8DE1735A7260067AD4E /* 2-red-menu-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FED8DD1735A7260067AD4E /* 2-red-menu-bar.png */; };
+		29FED8E01735A8870067AD4E /* 2-green-menu-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FED8DF1735A8870067AD4E /* 2-green-menu-bar.png */; };
+		29FED8E21735AA590067AD4E /* Start_Button_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FED8E11735AA590067AD4E /* Start_Button_Green.png */; };
+		29FED8E41735B7BF0067AD4E /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 29FED8E31735B7BF0067AD4E /* DS-DIGI.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		291F4C21178FA97800FC91DE /* horn_effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horn_effect.mp3; sourceTree = "<group>"; };
+		291F4C23178FA99100FC91DE /* ThisIsYourTime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThisIsYourTime.m4a; sourceTree = "<group>"; };
+		291F4C24178FA9B600FC91DE /* CreateSomething.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = CreateSomething.m4a; sourceTree = "<group>"; };
+		291F4C25178FA9E100FC91DE /* ThisIsOurTimeUpdate.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThisIsOurTimeUpdate.m4a; sourceTree = "<group>"; };
+		293ABFF61734C7E800431FE0 /* StopWatch_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293ABFF91734C7E800431FE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		293ABFFB1734C7E800431FE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		293ABFFD1734C7E800431FE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		293AC0011734C7E800431FE0 /* StopWatch_2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StopWatch_2-Info.plist"; sourceTree = "<group>"; };
+		293AC0031734C7E800431FE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		293AC0051734C7E800431FE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		293AC0071734C7E800431FE0 /* StopWatch_2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StopWatch_2-Prefix.pch"; sourceTree = "<group>"; };
+		293AC0081734C7E800431FE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		293AC0091734C7E800431FE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		293AC00B1734C7E800431FE0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		293AC00D1734C7E800431FE0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		293AC00F1734C7E800431FE0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		293AC0111734C7E800431FE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		293AC0121734C7E800431FE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		293AC0151734C7E900431FE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		293AC01C1734C83900431FE0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		29BD1AFB1736EE28004133B8 /* stop_button_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop_button_clear.png; sourceTree = "<group>"; };
+		29BD1AFD1736F10F004133B8 /* oldreset_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oldreset_button.png; sourceTree = "<group>"; };
+		29BD1AFF1736F195004133B8 /* reset_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset_button.png; sourceTree = "<group>"; };
+		29BD1B031736F38A004133B8 /* wood_bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_bg2.png; sourceTree = "<group>"; };
+		29BD1B051736F4A2004133B8 /* white_paper_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_paper_bg.png; sourceTree = "<group>"; };
+		29BD1B071736F5E4004133B8 /* Clock_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock_Icon.png; sourceTree = "<group>"; };
+		29BD1B091736F709004133B8 /* START_BUTTON_RAOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = START_BUTTON_RAOR.png; sourceTree = "<group>"; };
+		29D0F6F817372A7C00DEAD87 /* GreyBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreyBackGround.png; sourceTree = "<group>"; };
+		29D0F6FA17372C4200DEAD87 /* GreyBackGround_withclockandsidebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreyBackGround_withclockandsidebar.png; sourceTree = "<group>"; };
+		29FED8C117356A810067AD4E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		29FED8D317358DD30067AD4E /* activate_button_copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = activate_button_copy.jpg; sourceTree = SOURCE_ROOT; };
+		29FED8D51735927C0067AD4E /* activate_round.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = activate_round.jpg; path = "Button Pics/activate_round.jpg"; sourceTree = SOURCE_ROOT; };
+		29FED8D917359DF30067AD4E /* activate_button_CLEAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activate_button_CLEAR.png; sourceTree = SOURCE_ROOT; };
+		29FED8DB1735A71C0067AD4E /* 2-red-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-red-background.jpg"; sourceTree = "<group>"; };
+		29FED8DD1735A7260067AD4E /* 2-red-menu-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-red-menu-bar.png"; sourceTree = "<group>"; };
+		29FED8DF1735A8870067AD4E /* 2-green-menu-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-green-menu-bar.png"; sourceTree = "<group>"; };
+		29FED8E11735AA590067AD4E /* Start_Button_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start_Button_Green.png; sourceTree = "<group>"; };
+		29FED8E31735B7BF0067AD4E /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293ABFF31734C7E800431FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FED8C217356A810067AD4E /* AVFoundation.framework in Frameworks */,
+				293ABFFA1734C7E800431FE0 /* UIKit.framework in Frameworks */,
+				293ABFFC1734C7E800431FE0 /* Foundation.framework in Frameworks */,
+				293ABFFE1734C7E800431FE0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293ABFED1734C7E800431FE0 = {
+			isa = PBXGroup;
+			children = (
+				29FED8C117356A810067AD4E /* AVFoundation.framework */,
+				293ABFFF1734C7E800431FE0 /* StopWatch_2 */,
+				293ABFF81734C7E800431FE0 /* Frameworks */,
+				293ABFF71734C7E800431FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293ABFF71734C7E800431FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293ABFF61734C7E800431FE0 /* StopWatch_2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293ABFF81734C7E800431FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293ABFF91734C7E800431FE0 /* UIKit.framework */,
+				293ABFFB1734C7E800431FE0 /* Foundation.framework */,
+				293ABFFD1734C7E800431FE0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		293ABFFF1734C7E800431FE0 /* StopWatch_2 */ = {
+			isa = PBXGroup;
+			children = (
+				293AC0081734C7E800431FE0 /* AppDelegate.h */,
+				293AC0091734C7E800431FE0 /* AppDelegate.m */,
+				293AC0111734C7E800431FE0 /* ViewController.h */,
+				293AC0121734C7E800431FE0 /* ViewController.m */,
+				293AC01C1734C83900431FE0 /* ViewController.xib */,
+				293AC0141734C7E900431FE0 /* ViewController.xib */,
+				29BD1AFA1736EE02004133B8 /* UI Elements */,
+				293AC0001734C7E800431FE0 /* Supporting Files */,
+			);
+			path = StopWatch_2;
+			sourceTree = "<group>";
+		};
+		293AC0001734C7E800431FE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				293AC0011734C7E800431FE0 /* StopWatch_2-Info.plist */,
+				293AC0021734C7E800431FE0 /* InfoPlist.strings */,
+				293AC0051734C7E800431FE0 /* main.m */,
+				293AC0071734C7E800431FE0 /* StopWatch_2-Prefix.pch */,
+				293AC00B1734C7E800431FE0 /* Default.png */,
+				293AC00D1734C7E800431FE0 /* Default@2x.png */,
+				293AC00F1734C7E800431FE0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29BD1AFA1736EE02004133B8 /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				29D0F6FA17372C4200DEAD87 /* GreyBackGround_withclockandsidebar.png */,
+				29D0F6F817372A7C00DEAD87 /* GreyBackGround.png */,
+				29BD1B091736F709004133B8 /* START_BUTTON_RAOR.png */,
+				29BD1B071736F5E4004133B8 /* Clock_Icon.png */,
+				29BD1B051736F4A2004133B8 /* white_paper_bg.png */,
+				29BD1AFB1736EE28004133B8 /* stop_button_clear.png */,
+				29BD1B031736F38A004133B8 /* wood_bg2.png */,
+				29BD1AFF1736F195004133B8 /* reset_button.png */,
+				29BD1AFD1736F10F004133B8 /* oldreset_button.png */,
+				29FED8E31735B7BF0067AD4E /* DS-DIGI.TTF */,
+				29FED8D51735927C0067AD4E /* activate_round.jpg */,
+				29FED8DF1735A8870067AD4E /* 2-green-menu-bar.png */,
+				29FED8DD1735A7260067AD4E /* 2-red-menu-bar.png */,
+				29FED8D317358DD30067AD4E /* activate_button_copy.jpg */,
+				29FED8DB1735A71C0067AD4E /* 2-red-background.jpg */,
+				291F4C25178FA9E100FC91DE /* ThisIsOurTimeUpdate.m4a */,
+				291F4C24178FA9B600FC91DE /* CreateSomething.m4a */,
+				291F4C23178FA99100FC91DE /* ThisIsYourTime.m4a */,
+				291F4C21178FA97800FC91DE /* horn_effect.mp3 */,
+				29FED8D917359DF30067AD4E /* activate_button_CLEAR.png */,
+				29FED8E11735AA590067AD4E /* Start_Button_Green.png */,
+			);
+			name = "UI Elements";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293ABFF51734C7E800431FE0 /* StopWatch_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293AC0191734C7E900431FE0 /* Build configuration list for PBXNativeTarget "StopWatch_2" */;
+			buildPhases = (
+				293ABFF21734C7E800431FE0 /* Sources */,
+				293ABFF31734C7E800431FE0 /* Frameworks */,
+				293ABFF41734C7E800431FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopWatch_2;
+			productName = StopWatch_2;
+			productReference = 293ABFF61734C7E800431FE0 /* StopWatch_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293ABFEE1734C7E800431FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sonam Dhingra";
+			};
+			buildConfigurationList = 293ABFF11734C7E800431FE0 /* Build configuration list for PBXProject "StopWatch_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 293ABFED1734C7E800431FE0;
+			productRefGroup = 293ABFF71734C7E800431FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293ABFF51734C7E800431FE0 /* StopWatch_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293ABFF41734C7E800431FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293AC0041734C7E800431FE0 /* InfoPlist.strings in Resources */,
+				293AC00C1734C7E800431FE0 /* Default.png in Resources */,
+				293AC00E1734C7E800431FE0 /* Default@2x.png in Resources */,
+				293AC0101734C7E800431FE0 /* Default-568h@2x.png in Resources */,
+				293AC0161734C7E900431FE0 /* ViewController.xib in Resources */,
+				293AC01D1734C83900431FE0 /* ViewController.xib in Resources */,
+				29FED8D417358DD30067AD4E /* activate_button_copy.jpg in Resources */,
+				29FED8D61735927C0067AD4E /* activate_round.jpg in Resources */,
+				29FED8DA17359DF30067AD4E /* activate_button_CLEAR.png in Resources */,
+				29FED8DC1735A71C0067AD4E /* 2-red-background.jpg in Resources */,
+				29FED8DE1735A7260067AD4E /* 2-red-menu-bar.png in Resources */,
+				29FED8E01735A8870067AD4E /* 2-green-menu-bar.png in Resources */,
+				29FED8E21735AA590067AD4E /* Start_Button_Green.png in Resources */,
+				29FED8E41735B7BF0067AD4E /* DS-DIGI.TTF in Resources */,
+				29BD1AFC1736EE28004133B8 /* stop_button_clear.png in Resources */,
+				29BD1AFE1736F10F004133B8 /* oldreset_button.png in Resources */,
+				29BD1B001736F195004133B8 /* reset_button.png in Resources */,
+				29BD1B041736F38A004133B8 /* wood_bg2.png in Resources */,
+				29BD1B061736F4A2004133B8 /* white_paper_bg.png in Resources */,
+				29BD1B081736F5E4004133B8 /* Clock_Icon.png in Resources */,
+				29BD1B0A1736F709004133B8 /* START_BUTTON_RAOR.png in Resources */,
+				29D0F6F917372A7C00DEAD87 /* GreyBackGround.png in Resources */,
+				29D0F6FB17372C4200DEAD87 /* GreyBackGround_withclockandsidebar.png in Resources */,
+				291F4C22178FA97800FC91DE /* horn_effect.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293ABFF21734C7E800431FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293AC0061734C7E800431FE0 /* main.m in Sources */,
+				293AC00A1734C7E800431FE0 /* AppDelegate.m in Sources */,
+				293AC0131734C7E800431FE0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		293AC0021734C7E800431FE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293AC0031734C7E800431FE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		293AC0141734C7E900431FE0 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293AC0151734C7E900431FE0 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293AC0171734C7E900431FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		293AC0181734C7E900431FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293AC01A1734C7E900431FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StopWatch_2/StopWatch_2-Prefix.pch";
+				INFOPLIST_FILE = "StopWatch_2/StopWatch_2-Info.plist";
+				PRODUCT_NAME = StopWatch_2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		293AC01B1734C7E900431FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StopWatch_2/StopWatch_2-Prefix.pch";
+				INFOPLIST_FILE = "StopWatch_2/StopWatch_2-Info.plist";
+				PRODUCT_NAME = StopWatch_2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293ABFF11734C7E800431FE0 /* Build configuration list for PBXProject "StopWatch_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293AC0171734C7E900431FE0 /* Debug */,
+				293AC0181734C7E900431FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293AC0191734C7E900431FE0 /* Build configuration list for PBXNativeTarget "StopWatch_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293AC01A1734C7E900431FE0 /* Debug */,
+				293AC01B1734C7E900431FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293ABFEE1734C7E800431FE0 /* Project object */;
+}
